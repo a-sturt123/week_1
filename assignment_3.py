@@ -13,7 +13,11 @@ Year 1: 2025
 Year 2: 2028
 Difference: 3
 '''
-
+year1 = int(input("Enter the first year: "))
+year2 = int(input("Enter the second year: "))
+print("Year 1:", year1)
+print("Year 2:", year2)
+print("Difference:", abs(year2 - year1))
 
 #%%
 # Second Assignment
@@ -27,7 +31,10 @@ Your output should look like:
 Fahrenheit: 25
 Celsius: -3.89
 '''
-
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5 / 9
+print("Fahrenheit:", fahrenheit)
+print("Celsius:", round(celsius, 2))
 
 #%%
 # Third Assignment
@@ -42,6 +49,9 @@ USD: 1
 EU: 0.97
 
 '''
-
+usd = float(input("Enter amount in USD: "))
+euro = usd * 0.97
+print("USD:", usd)
+print("EU:", round(euro, 2))
 
 ##### ASSIGNMENT ENDS HERE #####
